@@ -1,7 +1,7 @@
 
 # mercadolibre_PruebaAutomatizada
 
-Este proyecto realiza scraping en MercadoLibre México para buscar productos "PlayStation 5", filtrar por estado "Nuevo" y ubicación "CDMX", y ordenarlos por mayor precio.
+Este proyecto realiza una búsqueda en MercadoLibre México para buscar productos "PlayStation 5", filtrar por estado "Nuevo" y ubicación "CDMX", y ordenarlos por mayor precio.
 
 ## Requisitos
 
@@ -9,13 +9,15 @@ Este proyecto realiza scraping en MercadoLibre México para buscar productos "Pl
 - Google Chrome
 - ChromeDriver (automatizado por webdriver-manager)
 
-## Instalación
+Seguir los siguientes pasos :
+
+## Instalación (1)
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Ejecución
+## Ejecución (2)
 
 ```bash
 python main.py
