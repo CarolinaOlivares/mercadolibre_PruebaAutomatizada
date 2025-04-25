@@ -1,0 +1,21 @@
+# Asegura que todos los archivos .py usen LF
+*.py text eol=lf
+
+# Archivos de texto comunes
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.csv text eol=lf
+
+# Archivos binarios (no tocar los saltos de línea)
+*.exe binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+
+# Logs y demás
+*.log text eol=lf
